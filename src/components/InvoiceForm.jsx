@@ -15,7 +15,8 @@ const InvoiceForm = () => {
   const [currentDate, setCurrentDate] = useState(
     new Date().toLocaleDateString()
   );
-  const [invoiceNumber, setInvoiceNumber] = useState(1);
+
+  const [invoiceNumber, setInvoiceNumber] = useState(new Date().getTime());
   const [dateOfIssue, setDateOfIssue] = useState("");
   const [billTo, setBillTo] = useState("");
   const [billToEmail, setBillToEmail] = useState("");
