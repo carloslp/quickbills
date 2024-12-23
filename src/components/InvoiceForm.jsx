@@ -168,7 +168,7 @@ const InvoiceForm = () => {
                 <Form.Control
                   placeholder="Email address"
                   value={billFromEmail}
-                  type="email"
+                  type="text"
                   name="billFromEmail"
                   className="my-2"
                   onChange={handleChange(setBillFromEmail)}
@@ -202,7 +202,7 @@ const InvoiceForm = () => {
                 <Form.Control
                   placeholder="Email address"
                   value={billToEmail}
-                  type="email"
+                  type="text"
                   name="billToEmail"
                   className="my-2"
                   onChange={handleChange(setBillToEmail)}
